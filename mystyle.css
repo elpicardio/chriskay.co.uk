@@ -1,15 +1,9 @@
-h1 {
-    font-size: 24pt;
-    color: #000000;
-    font-family: 'Open Sans', sans-serif;
-}
-
 body {
-    background-color: #001427;
+    background-color: #DCE0D9;
   }
 
 .parent {
-    background: #708D81;
+    background: #6B0F1A;
     padding: 5px;
     color: #000000;
     font-family: 'Open Sans';
@@ -17,7 +11,8 @@ body {
   }
   
   .main {
-    background: #F4D58D;
+    background: #8D0801;
+    color: #ffffff;
   }
   .sidebar {
     background: #BF0603;
