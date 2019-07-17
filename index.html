@@ -21,17 +21,19 @@
     </div>
 </div>
 <body>
-    <audio id="mysoundclip" preload="auto">
-        <source src="./assets/Bruh.mp3"> </source>
+    <audio id="sound1" preload="auto">
+        <source src="./assets/Bruh.mp3" type="audio/mpeg">
     </audio>
     <script>
-        function myFunction() {
-            document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
-        }
+        var x = document.getElementById("sound1");
+
+        function playAudio() { 
+            x.play(); 
+        }    
     </script>
     <div class="row center">
         <img src="5000poundsoundsystem.jpg"> <br>
-        <a onclick="myFunction()" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+        <a onclick="playAudio()" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
     </div>
     
     </body>
