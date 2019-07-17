@@ -3,7 +3,7 @@ body {
   }
 
 .parent {
-    background: #6B0F1A;
+    background: #311b92;
     padding: 5px;
     color: #000000;
     font-family: 'Open Sans';
@@ -11,11 +11,11 @@ body {
   }
   
   .main {
-    background: #8D0801;
-    color: #ffffff;
+    background: #4527a0;
+    color: #000000;
   }
   .sidebar {
-    background: #BF0603;
+    background: #7c4dff;
   }
   
   @media only screen and (min-width: 641px){
